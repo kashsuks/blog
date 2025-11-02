@@ -5,7 +5,7 @@
  */
 
 :root {
-	--accent: #2337ff;
+	--accent: #1e1e2e;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
@@ -35,11 +35,11 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
+	background: #1e1e2e;
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: rgb(var(--gray-dark));
+	color: #cdd6f4;
 	font-size: 20px;
 	line-height: 1.7;
 }
@@ -48,6 +48,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	background-color: #1e1e2e;
 }
 h1,
 h2,
@@ -64,28 +65,36 @@ h1 {
 }
 h2 {
 	font-size: 2.441em;
+	color: #f5e0dc;
 }
 h3 {
 	font-size: 1.953em;
+	color: #f5e0dc;
 }
 h4 {
 	font-size: 1.563em;
+	color: #f5e0dc;
 }
 h5 {
 	font-size: 1.25em;
+	color: #f5e0dc;
 }
 strong,
 b {
 	font-weight: 700;
 }
 a {
-	color: var(--accent);
+	color: #94e2d5;
 }
 a:hover {
-	color: var(--accent);
+	color: #74c7ec;
+}
+a:visited {
+	color: #cba6f7;
 }
 p {
 	margin-bottom: 1em;
+	color: #cdd6f4;
 }
 .prose p {
 	margin-bottom: 2em;
