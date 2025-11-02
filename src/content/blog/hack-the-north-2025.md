@@ -3,7 +3,6 @@ title: 'Hack The North 2025!'
 description: 'My experience at Canada’s largest hackathon'
 pubDate: 'Oct 30, 2025'
 heroImage: '../../assets/htn-2025.jpg'
-slug: 'hack-the-north-2025'
 ---
 
 ## Introduction
