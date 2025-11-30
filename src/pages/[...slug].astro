@@ -5,11 +5,11 @@ import BlogPost from '../layouts/BlogPost.astro';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   return posts.map(post => ({
-    params: { slug: post.id }, // filename without extension
+    params: { slug: post.id }, // e.g., "advent-of-code/day-01" or "hack-the-north-2025"
   }));
 }
 
-const slug = Astro.params.slug;
+const { slug } = Astro.params;
 const posts = await getCollection('blog');
 const post = posts.find(p => p.id === slug);
 
