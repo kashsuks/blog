@@ -99,6 +99,18 @@ p {
 .prose p {
 	margin-bottom: 2em;
 }
+
+/* Bullet point styling */
+ul li::marker,
+ol li::marker {
+	color: #dc8a78;
+}
+
+ul li,
+ol li {
+	color: #dc8a78;
+}
+
 textarea {
 	width: 100%;
 	font-size: 16px;
@@ -116,7 +128,8 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
+	background-color: #e6e9ef;
+	color: #000000;
 	border-radius: 2px;
 }
 pre {
@@ -127,7 +140,7 @@ pre > code {
 	all: unset;
 }
 blockquote {
-	border-left: 4px solid var(--accent);
+	border-left: 4px solid #04a5e5;
 	padding: 0 0 0 20px;
 	margin: 0px;
 	font-size: 1.333em;
